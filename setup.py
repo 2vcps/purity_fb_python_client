@@ -25,7 +25,7 @@ VERSION = "1.9.2"
 
 # If any of these requirements are changed, we also need to update `requirements.md`
 REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
-PYTHON_REQUIRES = ">=2.7, <3.7"
+PYTHON_REQUIRES = ">=2.7, <3.8.6"
 
 setup(
     name=NAME,
